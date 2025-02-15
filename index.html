@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир поэзии</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    
+    <button id="music-toggle">🎵 Включить музыку</button>
+    
+    <div class="container">
+        <h1>Мир поэзии</h1>
+        <div id="poem-container">
+            <h2 id="poem-title">Вечерний свет</h2>
+            <p id="poem-text"></p>
+        </div>
+        <button onclick="newPoem()">Следующее стихотворение</button>
+    </div>
+    
+    <script src="particles.js"></script>
+</body>
+</html>
